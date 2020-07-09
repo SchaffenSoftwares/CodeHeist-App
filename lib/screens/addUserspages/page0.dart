@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:codeheist/constants.dart';
+import 'package:hackapp/constants.dart';
 class Page0 extends StatefulWidget {
   @override
   _Page0State createState() => _Page0State();

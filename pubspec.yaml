@@ -1,4 +1,4 @@
-name: codeheist
+name: hackapp
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -23,6 +23,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  pull_to_refresh: ^1.6.0
+  http_parser: ^3.1.4
+  image_picker: ^0.6.7+2
+  firebase_core: ^0.4.5
+  firebase_auth: ^0.16.1
+  firebase_dynamic_links: ^0.5.1
+  font_awesome_flutter: ^8.8.1
+  flappy_search_bar: 1.4.1
+  http: ^0.12.1
+  dio: ^3.0.9
+  flutter_spinkit: ^4.1.2+1
+  url_launcher: ^5.4.10
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -38,11 +50,37 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+    - family: Muli
+      fonts:
+        - asset: fonts/Muli-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - images/
+
+#  fonts:
+#    - family: Muli
+#      fonts:
+#        - asset: fonts/Muli-Regular.ttf
+#    - family: Montserrat
+#      fonts:
+#        - asset: fonts/Montserrat-Regular.ttf
+#    - family: Pacifico
+#        fonts:
+#            - asset: fonts/Pacifico-Regular.ttf
+
 
   # To add assets to your application, add an assets section, like this:
   # assets:

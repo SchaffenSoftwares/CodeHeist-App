@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:codeheist/constants.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:codeheist/screens/loginFlow/loginFormPages/form1.dart';
+import 'package:hackapp/constants.dart';
+import 'package:hackapp/screens/loginFlow/loginFormPages/form1.dart';
 
 class Form0 extends StatefulWidget {
   Form0();

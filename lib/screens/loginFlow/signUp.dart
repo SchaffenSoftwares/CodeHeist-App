@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:codeheist/components/sizeConfig.dart';
-import 'package:codeheist/constants.dart';
+import 'package:hackapp/components/sizeConfig.dart';
+import 'package:hackapp/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'verification.dart';
 

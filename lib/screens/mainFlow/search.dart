@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:codeheist/constants.dart';
-import 'package:codeheist/components/sizeConfig.dart';
-import 'package:codeheist/screens/mainFlow/searchResults.dart';
+import 'package:hackapp/constants.dart';
+import 'package:hackapp/components/sizeConfig.dart';
+import 'package:hackapp/screens/mainFlow/searchResults.dart';
 
 
 class SearchPage extends StatefulWidget {
@@ -51,7 +51,7 @@ you are looking for''',
                         ),
                       ),
                       Padding(
-                        padding: const EdgeInsets.only(top: 35),
+                        padding: const EdgeInsets.fromLTRB(0,35,5,0),
                         child: Image(
                           image: AssetImage('images/vector.png'),
                           height: SizeConfig.safeBlockVertical * 10,
@@ -376,7 +376,7 @@ you are looking for''',
                               }
                             }
                             if(count==0){
-                              skillList.add('AI');
+                              skillList.add('Artificial Intelligence');
                             }
                           }
                           if(selectDesign==1){

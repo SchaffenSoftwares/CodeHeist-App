@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:codeheist/screens/addUserspages/page0.dart';
-import 'package:codeheist/screens/addUserspages/page1.dart';
-import 'package:codeheist/screens/addUserspages/page2.dart';
+import 'package:hackapp/screens/addUserspages/page0.dart';
+import 'package:hackapp/screens/addUserspages/page1.dart';
+import 'package:hackapp/screens/addUserspages/page2.dart';
 
 class UserScreen extends StatefulWidget {
  final int name;
@@ -34,6 +34,7 @@ class _UserScreenState extends State<UserScreen> {
                   itemBuilder: (BuildContext context, int index) {
                     return Container(
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Padding(
                             padding: const EdgeInsets.only(top: 40),

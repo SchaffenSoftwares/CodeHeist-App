@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:codeheist/constants.dart';
+import 'package:hackapp/constants.dart';
 
 class IconContainer extends StatelessWidget {
   final IconData iconData;

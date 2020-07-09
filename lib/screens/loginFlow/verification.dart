@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:codeheist/screens/loginFlow/loginFormPages/form0.dart';
+import 'package:hackapp/screens/loginFlow/loginFormPages/form0.dart';
 
 class Verification extends StatefulWidget {
   @override
